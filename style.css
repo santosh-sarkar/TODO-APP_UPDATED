@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: black;
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+#task{
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    height: 25px;
+}
+
+#btn{
+    background-color:yellowgreen;
+    color: aliceblue;
+    font-weight: bolder;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+.tasklist{
+    list-style: none;
+    padding: 10px;
+}
+.taskitem{
+    list-style: none;
+    padding: 4px;
+}
+
+li{
+    width: 85%;
+    display: inline;
+}
+.delbtn{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    float: right;
+}
